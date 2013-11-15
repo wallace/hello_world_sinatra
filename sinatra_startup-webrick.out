@@ -1,0 +1,294 @@
+TracePoint:
+	disable                        1
+	enable                         1
+
+NilClass:
+	inspect                        2
+	nil?                           1
+
+Class:
+	method_added                   424
+	hash                           200
+	handle_interrupt               200
+	inherited                      108
+	instance_variable_set          100
+	unresolved_deps                99
+	singleton_method_added         89
+	new                            73
+	initialize                     50
+	===                            50
+	attr_reader                    36
+	attr_accessor                  25
+	class_eval                     23
+	method_defined?                20
+	undef_method                   15
+	singleton_method_undefined     15
+	define_singleton               15
+	private                        14
+	set                            11
+	respond_to?                    11
+	proc                           10
+	include                        9
+	now                            9
+	define_method                  7
+	running_server                 6
+	escape                         5
+	running?                       4
+	running_server?                4
+	quit!                          3
+	handler_name=                  2
+	running_server=                2
+	port                           2
+	environment                    2
+	block_given?                   2
+	run                            2
+	expand_path                    2
+	to_s                           2
+	select                         2
+	trap                           2
+	add_handler                    2
+	handler_name                   1
+	gethostbyname                  1
+	gethostname                    1
+	dirname                        1
+	join                           1
+	instance_eval                  1
+	extend                         1
+	private_class_method           1
+	instance_of?                   1
+	quote                          1
+	name                           1
+	protected                      1
+	settings                       1
+	respond_to_missing?            1
+	bind                           1
+	development?                   1
+	start_server                   1
+	getaddrinfo                    1
+	convert                        1
+	inspect                        1
+	const_get                      1
+	Array                          1
+	server                         1
+	detect_rack_handler            1
+	setup_traps                    1
+	traps?                         1
+	traps                          1
+	at_exit                        1
+	run!                           1
+	app_file                       1
+	traps=                         1
+	start                          1
+	run?                           1
+
+Hash:
+	shift                          100
+	[]=                            65
+	keys                           2
+	each                           2
+	initialize                     2
+	update                         2
+	dup                            2
+	initialize_dup                 2
+	initialize_copy                2
+	freeze                         1
+	include?                       1
+	merge!                         1
+	delete                         1
+	respond_to?                    1
+
+Array:
+	each                           104
+	push                           100
+	join                           4
+	reverse!                       2
+	sort!                          2
+	collect!                       2
+	taint                          1
+	initialize                     1
+	freeze                         1
+	inject                         1
+	map                            1
+
+File:
+	set_encoding                   70
+
+Module:
+	const_set                      100
+	suffixes                       99
+	find_unresolved_default_spec   99
+	method_added                   56
+	singleton_method_added         49
+	module_function                26
+	included                       10
+	append_features                10
+	autoload                       9
+	register                       9
+	require                        3
+	set_close_on_exec              3
+	gem_original_require           3
+	attr_reader                    3
+	_make_regex                    3
+	const_get                      2
+	getservername                  1
+	__init__                       1
+	extended                       1
+	ruby                           1
+	_make_regex!                   1
+	private                        1
+	extend_object                  1
+	get                            1
+	attr_accessor                  1
+	create_listeners               1
+	caller                         1
+
+String:
+	gsub                           101
+	upcase                         50
+	freeze                         50
+	to_s                           20
+	respond_to?                    10
+	to_str                         9
+	is_a?                          9
+	to_i                           2
+	initialize_copy                1
+	initialize_dup                 1
+	sub!                           1
+	dup                            1
+	split                          1
+	respond_to_missing?            1
+
+Object:
+	require                        96
+	gem_original_require           96
+	[]                             1
+	tracers                        1
+
+Range:
+	include?                       179
+	===                            179
+	each                           2
+	collect                        2
+
+Fixnum:
+	<=>                            358
+	chr                            160
+	divmod                         18
+	+                              9
+	to_s                           6
+	nil?                           2
+	times                          1
+
+Regexp:
+	=~                             6
+	!~                             5
+	initialize                     2
+
+Mutex:
+	synchronize                    200
+	initialize                     5
+
+SocketError:
+	backtrace                      1
+	exception                      1
+	initialize                     1
+
+WEBrick::HTTPVersion:
+	is_a?                          1
+	initialize                     1
+
+Symbol:
+	to_s                           39
+	==                             6
+	!=                             1
+	to_proc                        1
+
+WEBrick::HTTPServer:
+	initialize                     2
+	call_callback                  2
+	class                          2
+	respond_to?                    2
+	respond_to_missing?            2
+	start                          1
+	sprintf                        1
+	mount                          1
+	listen                         1
+	stop                           1
+
+WEBrick::Log:
+	log                            18
+	format                         9
+	info                           5
+	debug                          4
+	initialize                     2
+
+SizedQueue:
+	push                           100
+	initialize                     2
+	taint                          1
+
+ConditionVariable:
+	signal                         100
+	initialize                     2
+
+Time:
+	strftime                       9
+	initialize                     9
+
+IO:
+	write                          9
+	<<                             5
+	puts                           2
+
+TCPServer:
+	fcntl                          3
+	initialize                     3
+
+WEBrick::HTTPServer::MountTable:
+	compile                        2
+	[]=                            1
+	normalize                      1
+	initialize                     1
+
+FalseClass:
+	inspect                        1
+
+ThreadGroup:
+	list                           1
+	initialize                     1
+
+Proc:
+	call                           1
+
+-------------
+Totals:
+	Class                           1690
+	Fixnum                          554
+	Module                          495
+	Range                           362
+	String                          257
+	Array                           219
+	Mutex                           205
+	Object                          194
+	Hash                            184
+	SizedQueue                      103
+	ConditionVariable               102
+	File                            70
+	Symbol                          47
+	WEBrick::Log                    38
+	Time                            18
+	IO                              16
+	WEBrick::HTTPServer             15
+	Regexp                          13
+	TCPServer                       6
+	WEBrick::HTTPServer::MountTable 5
+	NilClass                        3
+	SocketError                     3
+	TracePoint                      2
+	WEBrick::HTTPVersion            2
+	ThreadGroup                     2
+	FalseClass                      1
+	Proc                            1
+
+
+ Total Method Calls: 4607

@@ -1,0 +1,891 @@
+TracePoint:
+	disable                        1
+	enable                         1
+
+NilClass:
+	nil?                           137
+	respond_to_missing?            9
+	==                             4
+	to_a                           2
+	inspect                        2
+	eql?                           2
+	to_s                           1
+	to_i                           1
+	respond_to?                    1
+	hash                           1
+
+Class:
+	method_added                   546
+	===                            215
+	hash                           204
+	handle_interrupt               204
+	new                            138
+	inherited                      129
+	unresolved_deps                115
+	instance_variable_set          100
+	singleton_method_added         91
+	initialize                     50
+	attr_reader                    40
+	attr_accessor                  32
+	now                            30
+	class_eval                     23
+	private                        20
+	method_defined?                20
+	respond_to?                    20
+	define_singleton               15
+	undef_method                   15
+	singleton_method_undefined     15
+	include                        13
+	current                        12
+	select                         12
+	settings                       11
+	superclass                     11
+	set                            11
+	instance                       10
+	proc                           10
+	app_file                       9
+	define_method                  9
+	respond_to_missing?            6
+	environment                    6
+	running_server                 6
+	expand_path                    6
+	register                       5
+	dirname                        5
+	escape                         5
+	cancel                         5
+	root                           4
+	running?                       4
+	running_server?                4
+	default_port                   4
+	start                          3
+	development?                   3
+	join                           3
+	quit!                          3
+	convert                        3
+	logging                        2
+	name                           2
+	add_handler                    2
+	port                           2
+	test?                          2
+	to_s                           2
+	sessions?                      2
+	handler_name=                  2
+	running_server=                2
+	sessions                       2
+	protection                     2
+	middleware                     2
+	default_options                2
+	default_reaction               2
+	alias_method                   2
+	default_encoding               2
+	Array                          2
+	trap                           2
+	public_folder                  2
+	run                            2
+	block_given?                   2
+	handler_name                   1
+	traps?                         1
+	inspect                        1
+	traps                          1
+	getaddrinfo                    1
+	at_exit                        1
+	traps=                         1
+	get_instance                   1
+	start_server                   1
+	call                           1
+	synchronize                    1
+	bind                           1
+	lock?                          1
+	lock                           1
+	prototype                      1
+	new!                           1
+	build                          1
+	setup_default_middleware       1
+	show_exceptions?               1
+	show_exceptions                1
+	method_override?               1
+	method_override                1
+	gethostbyname                  1
+	gethostname                    1
+	setup_logging                  1
+	logging?                       1
+	instance_eval                  1
+	extend                         1
+	private_class_method           1
+	instance_of?                   1
+	quote                          1
+	setup_traps                    1
+	protected                      1
+	setup_common_logger            1
+	setup_custom_logger            1
+	setup_sessions                 1
+	setup_protection               1
+	protection?                    1
+	setup_middleware               1
+	make_scanner                   1
+	reload_templates               1
+	const_get                      1
+	force_encoding                 1
+	server                         1
+	detect_rack_handler            1
+	static?                        1
+	static                         1
+	exist?                         1
+	union                          1
+	run!                           1
+	mime_type                      1
+	add_charset                    1
+	exception                      1
+	run?                           1
+
+Hash:
+	[]=                            145
+	shift                          102
+	keys                           11
+	initialize_copy                11
+	initialize_dup                 11
+	merge                          9
+	delete                         9
+	each                           9
+	initialize                     9
+	include?                       4
+	respond_to?                    3
+	has_key?                       3
+	update                         3
+	fetch                          3
+	dup                            2
+	delete_if                      2
+	==                             1
+	merge!                         1
+	freeze                         1
+	is_a?                          1
+	respond_to_missing?            1
+	each_value                     1
+	map                            1
+
+Array:
+	each                           160
+	push                           102
+	join                           20
+	include?                       19
+	object_id                      10
+	initialize                     8
+	last                           7
+	delete_if                      5
+	inject                         4
+	respond_to?                    4
+	collect!                       3
+	first                          3
+	sort!                          2
+	member?                        2
+	reverse!                       2
+	reverse                        2
+	any?                           2
+	respond_to_missing?            2
+	freeze                         2
+	is_a?                          2
+	find                           1
+	sort_by                        1
+	shift                          1
+	hash                           1
+	eql?                           1
+	taint                          1
+	map!                           1
+	compact                        1
+	all?                           1
+	map                            1
+
+File:
+	set_encoding                   98
+
+Module:
+	find_unresolved_default_spec   115
+	suffixes                       115
+	const_set                      100
+	method_added                   70
+	singleton_method_added         52
+	module_function                28
+	included                       14
+	append_features                14
+	escape                         11
+	register                       9
+	autoload                       9
+	timeout                        5
+	set_close_on_exec              4
+	parse_qvalues                  4
+	require                        3
+	_make_regex                    3
+	attr_reader                    3
+	gem_original_require           3
+	format                         2
+	reason_phrase                  2
+	parse                          2
+	scheme_list                    2
+	Array                          2
+	const_get                      2
+	private                        2
+	__init__                       1
+	getservername                  1
+	parse_nested_query             1
+	extended                       1
+	extend_object                  1
+	caller                         1
+	ruby                           1
+	attr_accessor                  1
+	_make_regex!                   1
+	create_listeners               1
+	mime_type                      1
+	bytesize                       1
+	set_non_blocking               1
+	info?                          1
+	setup_params                   1
+	parse_header                   1
+	unescape                       1
+	get                            1
+	_unescape                      1
+	normalize_path                 1
+	new                            1
+
+String:
+	===                            435
+	nil?                           409
+	gsub                           116
+	upcase                         70
+	dump                           66
+	count                          66
+	*                              61
+	freeze                         53
+	downcase                       51
+	[]                             46
+	to_s                           37
+	gsub!                          23
+	respond_to?                    22
+	is_a?                          17
+	to_i                           16
+	==                             15
+	initialize_dup                 14
+	dup                            14
+	initialize_copy                14
+	to_str                         13
+	split                          10
+	respond_to_missing?            9
+	tainted?                       7
+	sub!                           5
+	bytesize                       4
+	include?                       3
+	strip!                         3
+	downcase!                      3
+	upcase!                        3
+	encode                         2
+	encoding                       2
+	untaint                        2
+	force_encoding                 1
+	%                              1
+	sub                            1
+	scan                           1
+	kind_of?                       1
+	chomp                          1
+	each_line                      1
+
+Object:
+	require                        112
+	gem_original_require           112
+	[]                             2
+	tracers                        1
+
+Range:
+	include?                       179
+	===                            179
+	each                           2
+	collect                        2
+
+Fixnum:
+	<=>                            370
+	chr                            160
+	+                              35
+	divmod                         29
+	nil?                           19
+	to_s                           17
+	to_i                           10
+	==                             7
+	zero?                          5
+	===                            3
+	kind_of?                       2
+	fdiv                           2
+	quo                            2
+	-                              2
+	respond_to_missing?            1
+	respond_to?                    1
+	times                          1
+	!=                             1
+	|                              1
+	to_f                           1
+
+Regexp:
+	=~                             13
+	===                            7
+	!~                             7
+	initialize                     2
+	match                          2
+
+Mutex:
+	synchronize                    216
+	initialize                     6
+
+SocketError:
+	backtrace                      1
+	exception                      1
+	initialize                     1
+
+WEBrick::HTTPVersion:
+	class                          10
+	initialize                     7
+	<=>                            5
+	<                              5
+	is_a?                          3
+	to_s                           2
+	format                         2
+
+Symbol:
+	===                            131
+	to_s                           46
+	==                             31
+	nil?                           1
+	respond_to?                    1
+	!=                             1
+	respond_to_missing?            1
+	to_proc                        1
+
+WEBrick::HTTPServer:
+	[]                             3
+	call_callback                  3
+	respond_to_missing?            2
+	class                          2
+	respond_to?                    2
+	initialize                     2
+	start_thread                   1
+	lookup_server                  1
+	run                            1
+	service                        1
+	accept_client                  1
+	search_servlet                 1
+	format                         1
+	start                          1
+	access_log                     1
+	raise                          1
+	sprintf                        1
+	mount                          1
+	listen                         1
+	stop                           1
+
+WEBrick::Log:
+	log                            24
+	format                         12
+	debug                          7
+	info                           5
+	initialize                     2
+
+SizedQueue:
+	push                           101
+	pop                            2
+	initialize                     2
+	taint                          1
+
+ConditionVariable:
+	signal                         102
+	initialize                     2
+
+Time:
+	initialize                     30
+	strftime                       14
+	+                              5
+	-                              2
+	year                           2
+	utc                            1
+	day                            1
+	wday                           1
+	mon                            1
+	initialize_copy                1
+	initialize_dup                 1
+	dup                            1
+	httpdate                       1
+	hour                           1
+	min                            1
+	sec                            1
+	sprintf                        1
+
+IO:
+	write                          12
+	<<                             7
+	puts                           2
+	respond_to?                    2
+
+TCPServer:
+	initialize                     3
+	fcntl                          3
+	accept                         1
+
+WEBrick::HTTPServer::MountTable:
+	normalize                      2
+	compile                        2
+	[]                             1
+	[]=                            1
+	scan                           1
+	initialize                     1
+
+FalseClass:
+	respond_to_missing?            1
+	respond_to?                    1
+	eql?                           1
+	hash                           1
+	inspect                        1
+
+ThreadGroup:
+	list                           1
+	add                            1
+	initialize                     1
+
+TCPSocket:
+	gets                           5
+	fcntl                          3
+	<<                             2
+	write                          2
+	peeraddr                       2
+	eof?                           2
+	respond_to?                    2
+	addr                           1
+	closed?                        1
+	do_not_reverse_lookup=         1
+	close                          1
+	sync=                          1
+
+Thread:
+	hash                           30
+	[]=                            3
+	[]                             1
+
+WEBrick::HTTPResponse:
+	[]=                            5
+	chunked?                       3
+	keep_alive?                    3
+	initialize                     2
+	status=                        2
+	_write_data                    2
+	send_header                    1
+	status_line                    1
+	send_body                      1
+	setup_header                   1
+	send_response                  1
+	send_body_string               1
+	set_error                      1
+	respond_to?                    1
+	respond_to_missing?            1
+
+WEBrick::HTTPRequest:
+	[]                             19
+	_read_data                     5
+	read_line                      5
+	keep_alive?                    4
+	body                           2
+	read_body                      2
+	initialize                     2
+	parse_uri                      1
+	setup_forwarded_info           1
+	meta_vars                      1
+	read_header                    1
+	each                           1
+	fixup                          1
+	read_request_line              1
+	parse                          1
+	port                           1
+
+WEBrick::Utils::TimeoutHandler:
+	sleep                          8
+	cancel                         5
+	register                       5
+	initialize                     1
+
+MatchData:
+	[]                             4
+	captures                       1
+
+Float:
+	-@                             1
+
+URI::Parser:
+	split                          2
+	parse                          2
+
+URI::Generic:
+	class                          2
+	set_scheme                     2
+	set_host                       2
+	set_port                       2
+	default_port                   2
+	parser                         2
+	path_query                     1
+	check_host                     1
+	check_scheme                   1
+	scheme=                        1
+	absolute?                      1
+	host=                          1
+	port=                          1
+	set_fragment                   1
+	set_registry                   1
+	set_opaque                     1
+	set_query                      1
+	set_path                       1
+	check_port                     1
+	to_s                           1
+	split_userinfo                 1
+	set_userinfo                   1
+	userinfo                       1
+	initialize                     1
+
+URI::HTTP:
+	initialize                     2
+	default_port                   2
+	class                          2
+	set_opaque                     1
+	userinfo                       1
+	set_fragment                   1
+	set_registry                   1
+	to_s                           1
+	set_query                      1
+	set_path                       1
+	set_port                       1
+	set_host                       1
+	split_userinfo                 1
+	set_userinfo                   1
+	set_scheme                     1
+	path_query                     1
+
+Rack::Handler::WEBrick:
+	initialize                     2
+	class                          1
+	service                        1
+
+Proc:
+	[]                             14
+	call                           2
+	instance_variable_get          1
+	initialize                     1
+
+StringIO:
+	initialize                     2
+	set_encoding                   1
+	respond_to?                    1
+	nil?                           1
+
+Sinatra::Application:
+	settings                       9
+	class                          9
+	catch                          4
+	block_given?                   4
+	filter!                        4
+	initialize                     3
+	invoke                         3
+	body                           3
+	headers                        1
+	route!                         1
+	route_eval                     1
+	dispatch!                      1
+	throw                          1
+	GET /hello/world               1
+	force_encoding                 1
+	process_route                  1
+	error_block!                   1
+	indifferent_hash               1
+	indifferent_params             1
+	call!                          1
+	initialize_copy                1
+	initialize_dup                 1
+	dup                            1
+	call                           1
+	content_type                   1
+	mime_type                      1
+
+Tilt::Cache:
+	clear                          1
+	initialize                     1
+
+Rack::Builder:
+	proc                           13
+	use                            13
+	initialize                     2
+	run                            2
+	to_app                         2
+	block_given?                   2
+	instance_eval                  1
+
+TrueClass:
+	respond_to_missing?            1
+	respond_to?                    1
+
+Rack::Protection::XSSHeader:
+	default_options                2
+	call                           1
+	html?                          1
+	initialize                     1
+
+Rack::Protection::PathTraversal:
+	cleanup                        1
+	call                           1
+	default_options                1
+	initialize                     1
+
+Rack::Protection::JsonCsrf:
+	has_vector?                    1
+	call                           1
+	default_options                1
+	initialize                     1
+
+Rack::Protection::IPSpoofing:
+	accepts?                       1
+	call                           1
+	default_options                1
+	initialize                     1
+
+Rack::Protection::HttpOrigin:
+	safe?                          1
+	accepts?                       1
+	call                           1
+	default_options                1
+	initialize                     1
+
+Rack::Protection::FrameOptions:
+	default_options                2
+	call                           1
+	html?                          1
+	frame_options                  1
+	initialize                     1
+
+Rack::Logger:
+	call                           1
+	initialize                     1
+
+Sinatra::CommonLogger:
+	call                           3
+	log                            1
+	extract_content_length         1
+	initialize                     1
+
+Rack::Head:
+	call                           1
+	initialize                     1
+
+Rack::MethodOverride:
+	call                           1
+	initialize                     1
+
+Sinatra::ShowExceptions:
+	call                           1
+	initialize                     1
+
+ERB:
+	set_eoutvar                    1
+	make_compiler                  1
+	initialize                     1
+
+ERB::Compiler:
+	add_put_cmd                    66
+	content_dump                   66
+	add_insert_cmd                 34
+	make_scanner                   1
+	detect_magic_comment           1
+	compile                        1
+	prepare_trim_mode              1
+	initialize                     1
+
+Encoding:
+	to_s                           1
+	dummy?                         1
+
+ERB::Compiler::Buffer:
+	push                           133
+	close                          1
+	initialize                     1
+
+ERB::Compiler::SimpleScanner2:
+	scan                           1
+	initialize                     1
+
+StringScanner:
+	[]                             262
+	eos?                           132
+	scan                           131
+	initialize                     1
+
+Sinatra::ExtendedRack:
+	app                            1
+	call                           1
+	initialize                     1
+
+Sinatra::Wrapper:
+	call                           1
+	initialize                     1
+
+Logger:
+	initialize                     1
+
+Logger::Formatter:
+	initialize                     1
+
+Logger::LogDevice:
+	initialize                     1
+
+Logger::LogDevice::LogDeviceMutex:
+	initialize                     2
+	mon_initialize                 1
+
+Rack::Request:
+	xhr?                           1
+	initialize                     1
+
+Sinatra::Request:
+	query_string                   3
+	media_type                     2
+	request_method                 2
+	content_type                   2
+	form_data?                     1
+	path_info                      1
+	parseable_data?                1
+	POST                           1
+	parse_query                    1
+	head?                          1
+	GET                            1
+	params                         1
+	initialize                     1
+
+Sinatra::Response:
+	initialize                     2
+	drop_body?                     2
+	[]=                            2
+	[]                             1
+	finish                         1
+	body=                          1
+	drop_content_info?             1
+	block_given?                   1
+	lambda                         1
+	calculate_content_length?      1
+
+Rack::Utils::HeaderHash:
+	[]                             27
+	[]=                            14
+	each                           6
+	detect                         2
+	delete                         2
+	initialize                     2
+	initialize_copy                1
+	initialize_dup                 1
+	dup                            1
+	merge                          1
+	merge!                         1
+
+Rack::Utils::KeySpaceConstrainedParams:
+	to_params_hash                 1
+	initialize                     1
+
+UnboundMethod:
+	bind                           1
+
+Method:
+	call                           1
+
+Rack::BodyProxy:
+	respond_to?                    2
+	close                          1
+	each                           1
+	initialize                     1
+
+Rational:
+	to_f                           2
+	/                              2
+
+WEBrick::HTTPStatus::EOFError:
+	to_s                           1
+	message                        1
+	backtrace                      1
+	initialize                     1
+
+-------------
+Totals:
+	Class                                  2301
+	String                                 1618
+	Fixnum                                 669
+	Module                                 597
+	StringScanner                          526
+	Array                                  371
+	Range                                  362
+	Hash                                   343
+	Object                                 227
+	Mutex                                  222
+	Symbol                                 213
+	ERB::Compiler                          171
+	NilClass                               160
+	ERB::Compiler::Buffer                  135
+	SizedQueue                             106
+	ConditionVariable                      104
+	File                                   98
+	Time                                   65
+	Rack::Utils::HeaderHash                58
+	Sinatra::Application                   57
+	WEBrick::Log                           50
+	WEBrick::HTTPRequest                   48
+	Rack::Builder                          35
+	WEBrick::HTTPVersion                   34
+	Thread                                 34
+	Regexp                                 31
+	URI::Generic                           30
+	WEBrick::HTTPServer                    28
+	WEBrick::HTTPResponse                  26
+	IO                                     23
+	TCPSocket                              23
+	WEBrick::Utils::TimeoutHandler         19
+	URI::HTTP                              19
+	Proc                                   18
+	Sinatra::Request                       18
+	Sinatra::Response                      13
+	WEBrick::HTTPServer::MountTable        8
+	TCPServer                              7
+	Rack::Protection::FrameOptions         6
+	Sinatra::CommonLogger                  6
+	Rack::Protection::XSSHeader            5
+	FalseClass                             5
+	StringIO                               5
+	Rack::BodyProxy                        5
+	MatchData                              5
+	Rack::Protection::HttpOrigin           5
+	WEBrick::HTTPStatus::EOFError          4
+	URI::Parser                            4
+	Rack::Handler::WEBrick                 4
+	Rational                               4
+	Rack::Protection::IPSpoofing           4
+	Rack::Protection::JsonCsrf             4
+	Rack::Protection::PathTraversal        4
+	Logger::LogDevice::LogDeviceMutex      3
+	ThreadGroup                            3
+	Sinatra::ExtendedRack                  3
+	SocketError                            3
+	ERB                                    3
+	Encoding                               2
+	Sinatra::ShowExceptions                2
+	Rack::Head                             2
+	Rack::MethodOverride                   2
+	Tilt::Cache                            2
+	ERB::Compiler::SimpleScanner2          2
+	Rack::Logger                           2
+	Sinatra::Wrapper                       2
+	Rack::Utils::KeySpaceConstrainedParams 2
+	TrueClass                              2
+	Rack::Request                          2
+	TracePoint                             2
+	Logger::LogDevice                      1
+	Logger                                 1
+	UnboundMethod                          1
+	Method                                 1
+	Float                                  1
+	Logger::Formatter                      1
+
+
+ Total Method Calls: 8982
